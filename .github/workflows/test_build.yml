@@ -34,7 +34,7 @@ jobs:
       run: |
         pytest
 
-# Verificacion de codigo con ruff
+    # Verificacion de codigo con ruff
     - name: Check code with ruff
-  working-directory: src
-  run: ruff check .
+      working-directory: src
+      run: ruff check .
