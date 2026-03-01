@@ -33,3 +33,8 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+# Verificacion de codigo con ruff
+    - name: Check code with ruff
+  working-directory: src
+  run: ruff check .
